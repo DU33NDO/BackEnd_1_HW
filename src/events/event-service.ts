@@ -1,6 +1,7 @@
 import { CreateEventDto } from "./dtos/CreateEvent.dot";
 import { Event } from "./types/response";
-import EventModel, { IEvent } from "../../src/auth/models/Model";
+import EventModel, { IEvent } from "../auth/models/Model";
+
 
 class EventService {
   async getEventById(id: string): Promise<IEvent | null> {

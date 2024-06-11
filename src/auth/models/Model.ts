@@ -18,4 +18,5 @@ const UserSchema: Schema = new Schema({
   city: { type: String },
 });
 const EventModel = mongoose.model<IEvent>("Event", UserSchema);
+
 export default EventModel;
