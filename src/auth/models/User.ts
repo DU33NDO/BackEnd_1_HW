@@ -13,5 +13,4 @@ const UserSchema: Schema = new Schema({
   password: { type: String, required: true },
   city: { type: String, required: false },
 });
-
 export default mongoose.model<IUser>("User", UserSchema);

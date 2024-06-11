@@ -12,7 +12,7 @@ authRouter.post('/register', authController.registerUser);
 authRouter.post('/login', authController.loginUser);
 authRouter.post('/refresh-token', authController.refreshToken);
 
-// Example protected route
+
 authRouter.get('/protected', authMiddleware, (req, res) => {
   res.json({ message: 'You have access to this route!' });
 });
