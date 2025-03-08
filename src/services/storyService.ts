@@ -104,7 +104,7 @@ class StoryService {
       const inspiration = storyTellingInspiration || "Hannibal Lecter";
 
       const prompt = `
-You are writing a disturbing short story in the style of ${inspiration} in Russian Language.
+You are writing a disturbing short story in the style of ${inspiration} in Russian Language within 350 words.
 The story should be inspired by this quote: "${quote}"
 ${
   bookBased
